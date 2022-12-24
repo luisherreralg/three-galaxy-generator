@@ -1,16 +1,19 @@
-# Three.js Journey
+# Three.js Galaxy Generator Particles Project
+This project uses Three.js to create a dynamic, interactive galaxy generator with particle effects.
 
-## Setup
-Download [Node.js](https://nodejs.org/en/download/).
-Run this followed commands:
+## Installation
+To run this project, you will need to have Node.js and npm installed on your machine.
 
-``` bash
-# Install dependencies (only the first time)
-npm install
+- Clone or download the repository
+- Navigate to the project directory in your terminal
+- Run npm install to install the required dependencies
+- Run npm start to start the development server
+- Open a browser and go to http://localhost:3000 to view the project
 
-# Run the local server at localhost:8080
-npm run dev
+## Usage
+Use the controls in the top left corner of the screen to adjust the settings for the galaxy generator. You can change the number of particles, the size of the particles, and the speed at which they move. You can also toggle the particle trails and adjust the color of the particles.
 
-# Build for production in the dist/ directory
-npm run build
-```
+## Credits
+- Three.js
+- dat.GUI
+
